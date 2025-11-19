@@ -10,13 +10,13 @@ Building on the [**04 Sliding Module**](https://github.com/LukkasVN/LVN-Gameplay
   <img src="https://github.com/user-attachments/assets/1017b88c-189a-4797-bca4-b853fa8fb4d8" width="600px" />
 </p>
 
-The rolling system activates when the player presses the roll key while grounded and not already performing another movement override (e.g., vault or slide).  
+The rolling system activates when the player presses the roll key while grounded and not already performing another movement override.  
 Once triggered, the character rolls in the direction of current movement input, with rotation smoothly interpolated to match the roll vector.  
 The system supports backward and diagonal rolls, ensuring consistent game-feel and visual alignment regardless of input direction.
 
 Capsule and mesh adjustments are synchronized with animation to allow clean transitions and prevent clipping.  
 The roll duration is curve-driven, allowing for tunable momentum and animation blending.  
-If the roll ends in a low-clearance area, the system can optionally transition into crouch or prone, depending on environment constraints.
+If the roll ends in a low-clearance area, the system can optionally transition into crouch, depending on environment constraints.
 
 <h3>Key features include:</h3>
 
