@@ -24,4 +24,6 @@ The mechanic integrates with the existing locomotion setup and is designed to re
 
 ---
 
-> Note: The **Blueprint version** was skipped this week due to time constraints. On busy weeks I may leave Blueprint out to finish and refine the other two implementations. If specifically requested, I can go back and update the Blueprint version later, but otherwise I will continue forward to the next mechanic.  
+> IMPORTANT NOTE: In order to work properly the Ledge  needs to be a Blueprint with both the wall mesh and as a child the floor/ledge mesh.
+
+> Extra Note: The **Blueprint version** was skipped this week due to time constraints. On busy weeks I may leave Blueprint out to finish and refine the other two implementations. If specifically requested, I can go back and update the Blueprint version later, but otherwise I will continue forward to the next mechanic.
